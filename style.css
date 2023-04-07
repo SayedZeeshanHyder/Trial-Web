@@ -69,37 +69,6 @@ img{
 .xd img:hover{
     cursor: pointer;
 }
-.z{
-    background-color: #FBC40E;
-}
-.a img{
-    margin-top: 0%;
-    margin-left: 17%;
-}
-.a input[type=text] {
-    float: center;
-    padding: 6px;
-    border: none;
-    margin-top: 5px;
-    margin-left: 5%;
-    font-size: 17px;
-    border-radius: 5px;
-  }
-.a input[type=text] {
-    border: 1px solid #ccc;
-  }
-.a button {
-    padding: 6px 10px;
-    margin-top: 5px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-#side{
-    margin-top: 5px;
-}
 .imgsim{
     width: 30%;
     height: 200px;
@@ -125,6 +94,7 @@ img{
     margin-left: 10%;
     margin-top: 5%;
     border-style: solid;
+    border-width: .5rem;
 }
 .imglog{
     width: 50px;
@@ -141,7 +111,8 @@ img{
 .lastmid{
     margin-left: 2%;
     margin-top: 5%;
-    border-style: solid;
+    border-style: solid;   
+     border-width: .5rem;
 }
 .Contact{
     text-align: center;
@@ -157,5 +128,86 @@ img{
     margin-bottom: 20px;
 }
 .imgadd:hover{
+    cursor: pointer;
+}
+.nav{
+    background-color: #FBC40E;
+}
+.ticklog{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 40px;
+    margin-left: 12%;
+}
+.sidebaricon{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 40px;
+    margin-left: 1%;
+}
+.sidebaricon:hover{
+    cursor: pointer;
+}
+.fittext{
+    margin-top: .5%;
+    margin-left: .5%;
+}
+.searchbar{
+    margin-left: 5%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    border-radius: 5%;
+    width: 40%;
+}
+.searchbutton{
+    height: 30px;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 40px;
+    border-radius: 5px;
+    border-spacing: 10px;
+}
+.searchbutton:hover{
+    cursor: pointer;
+}
+.loginlog{
+    width: 40px;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.loginlog:hover{
+    cursor: pointer;
+}
+.logbutton{
+    background-color: black;
+    text-decoration: solid;
+    color: aliceblue;
+    border-width: .2rem;
+    border-color: aliceblue;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+.logbutton:hover{
+    background-color: red;
+    text-decoration: solid;
+    color: black;
+    border-width: .2rem;
+    border-color: black;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    border-radius: 5px;
+    margin-left: 1%;
+    
+}
+.sidebarbutton{
+    width: 45px;
+    height: 40px;
+    margin-top: .5%;
+    margin-left: 12%;
+}
+.sidebarbutton:hover{
     cursor: pointer;
 }
